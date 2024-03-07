@@ -30,14 +30,22 @@ namespace SecurityLibrary
 
         public string Decrypt(string cipherText, string key)
         {
-            throw new NotImplementedException();
+            cipherText = cipherText.ToLower();
+            InitializeMatrix(key);
+            string plainText = "";
+            for (int i = 0; i < cipherText.Length-1; i+=2)
+            {
+                plainText += GetEncryptedChars(cipherText[i], cipherText[i + 1], false);
+            }
+            plainText = OutputPreprocessing(plainText);
+            return plainText;
         }
 
         public string Encrypt(string plainText, string key)
         {
             //key = "playfairexample";
             //plainText = "communication";
-            plainText = TextPreprocessing(plainText.ToLower());
+            plainText = InputPreprocessing(plainText.ToLower());
 
             InitializeMatrix(key);
 
@@ -48,9 +56,22 @@ namespace SecurityLibrary
             }
             return cipherText;
         }
-        public string TextPreprocessing(string plainText)
+        public string OutputPreprocessing(string plainText)
         {
-            plainText = plainText.ToLower();
+            char[] tmpText = plainText.ToCharArray();
+            if (tmpText[tmpText.Length - 1] == 'x')
+                tmpText[tmpText.Length - 1] = '-';
+
+            for (int i = 1; i < tmpText.Length-1; i+=2)
+                if (tmpText[i] == 'x' && tmpText[i + 1] == tmpText[i - 1])
+                    tmpText[i] = '-';
+            
+            plainText = new string(tmpText);
+            plainText = plainText.Replace("-", string.Empty);
+            return plainText;
+        }
+        public string InputPreprocessing(string plainText)
+        {
             for (int i = 0; i <  plainText.Length-1; i+=2)
             {
                 if (plainText[i] == plainText[i + 1])
@@ -67,13 +88,13 @@ namespace SecurityLibrary
             char a, b;
             if (loc1.Item1 == loc2.Item1)
             {
-                a = matrix[loc1.Item1][(loc1.Item2 + ((encrypt) ? 1 : -1)) % 5];
-                b = matrix[loc2.Item1][(loc2.Item2 + ((encrypt) ? 1 : -1)) % 5];
+                a = matrix[loc1.Item1][(((loc1.Item2 + ((encrypt) ? 1 : -1)) % 5) + 5) % 5];
+                b = matrix[loc2.Item1][(((loc2.Item2 + ((encrypt) ? 1 : -1)) % 5) + 5) % 5];
             }
             else if (loc1.Item2 == loc2.Item2)
             {
-                a = matrix[(loc1.Item1 + ((encrypt) ? 1 : -1)) % 5][loc1.Item2];
-                b = matrix[(loc2.Item1 + ((encrypt) ? 1 : -1)) % 5][loc2.Item2];
+                a = matrix[(((loc1.Item1 + ((encrypt) ? 1 : -1)) % 5) + 5) % 5][loc1.Item2];
+                b = matrix[(((loc2.Item1 + ((encrypt) ? 1 : -1)) % 5) + 5) % 5][loc2.Item2];
             }
             else
             {
