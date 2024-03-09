@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|d:\\study\\fcis 2024\\semester 8 fcis 2024\\computer and network security\\security-package\\securitylibrary\\mainalgorithms\\playfair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|solutionrelative:securitylibrary\\mainalgorithms\\playfair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|d:\\study\\fcis 2024\\semester 8 fcis 2024\\computer and network security\\security-package\\securitylibrary\\mainalgorithms\\repeatingkeyvigenere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|solutionrelative:securitylibrary\\mainalgorithms\\repeatingkeyvigenere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4638FC66-5518-485D-A541-D0A6044730B0}|SecurityPackageTest\\SecurityPackageTest.csproj|D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\securitypackagetest\\playfairtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4638FC66-5518-485D-A541-D0A6044730B0}|SecurityPackageTest\\SecurityPackageTest.csproj|solutionrelative:securitypackagetest\\playfairtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4638FC66-5518-485D-A541-D0A6044730B0}|SecurityPackageTest\\SecurityPackageTest.csproj|d:\\study\\fcis 2024\\semester 8 fcis 2024\\computer and network security\\security-package\\securitypackagetest\\vigneretest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4638FC66-5518-485D-A541-D0A6044730B0}|SecurityPackageTest\\SecurityPackageTest.csproj|solutionrelative:securitypackagetest\\vigneretest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,27 +35,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayfairTest.cs",
-              "DocumentMoniker": "D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\securitypackagetest\\PlayfairTest.cs",
-              "RelativeDocumentMoniker": "securitypackagetest\\PlayfairTest.cs",
-              "ToolTip": "D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\securitypackagetest\\PlayfairTest.cs",
-              "RelativeToolTip": "securitypackagetest\\PlayfairTest.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAkwEwAAAAMAAAA",
+              "Title": "VignereTest.cs",
+              "DocumentMoniker": "D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\securitypackagetest\\VignereTest.cs",
+              "RelativeDocumentMoniker": "securitypackagetest\\VignereTest.cs",
+              "ToolTip": "D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\securitypackagetest\\VignereTest.cs",
+              "RelativeToolTip": "securitypackagetest\\VignereTest.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvwwAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T10:53:32.776Z",
+              "WhenOpened": "2024-03-09T21:32:50.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayFair.cs",
-              "DocumentMoniker": "D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\securitylibrary\\MainAlgorithms\\PlayFair.cs",
-              "RelativeDocumentMoniker": "securitylibrary\\MainAlgorithms\\PlayFair.cs",
-              "ToolTip": "D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\securitylibrary\\MainAlgorithms\\PlayFair.cs",
-              "RelativeToolTip": "securitylibrary\\MainAlgorithms\\PlayFair.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAWwC0AAAAmAAAA",
+              "Title": "RepeatingKeyVigenere.cs",
+              "DocumentMoniker": "D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\securitylibrary\\MainAlgorithms\\RepeatingKeyVigenere.cs",
+              "RelativeDocumentMoniker": "securitylibrary\\MainAlgorithms\\RepeatingKeyVigenere.cs",
+              "ToolTip": "D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\securitylibrary\\MainAlgorithms\\RepeatingKeyVigenere.cs",
+              "RelativeToolTip": "securitylibrary\\MainAlgorithms\\RepeatingKeyVigenere.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAIA1wEQAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T10:52:36.117Z",
+              "WhenOpened": "2024-03-09T21:32:24.675Z",
               "EditorCaption": ""
             }
           ]
