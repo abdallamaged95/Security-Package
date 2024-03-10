@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|d:\\study\\fcis 2024\\semester 8 fcis 2024\\computer and network security\\security-package\\securitylibrary\\mainalgorithms\\autokeyvigenere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|solutionrelative:securitylibrary\\mainalgorithms\\autokeyvigenere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|d:\\study\\fcis 2024\\semester 8 fcis 2024\\computer and network security\\security-package\\securitylibrary\\mainalgorithms\\railfence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|solutionrelative:securitylibrary\\mainalgorithms\\railfence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|d:\\study\\fcis 2024\\semester 8 fcis 2024\\computer and network security\\security-package\\securitylibrary\\mainalgorithms\\repeatingkeyvigenere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|solutionrelative:securitylibrary\\mainalgorithms\\repeatingkeyvigenere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4638FC66-5518-485D-A541-D0A6044730B0}|SecurityPackageTest\\SecurityPackageTest.csproj|D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\securitypackagetest\\vigneretest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4638FC66-5518-485D-A541-D0A6044730B0}|SecurityPackageTest\\SecurityPackageTest.csproj|solutionrelative:securitypackagetest\\vigneretest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4638FC66-5518-485D-A541-D0A6044730B0}|SecurityPackageTest\\SecurityPackageTest.csproj|d:\\study\\fcis 2024\\semester 8 fcis 2024\\computer and network security\\security-package\\securitypackagetest\\railfencetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4638FC66-5518-485D-A541-D0A6044730B0}|SecurityPackageTest\\SecurityPackageTest.csproj|solutionrelative:securitypackagetest\\railfencetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,41 +34,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VignereTest.cs",
-              "DocumentMoniker": "D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\securitypackagetest\\VignereTest.cs",
-              "RelativeDocumentMoniker": "securitypackagetest\\VignereTest.cs",
-              "ToolTip": "D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\securitypackagetest\\VignereTest.cs",
-              "RelativeToolTip": "securitypackagetest\\VignereTest.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "DocumentIndex": 1,
+              "Title": "RailFenceTest.cs",
+              "DocumentMoniker": "D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\securitypackagetest\\RailFenceTest.cs",
+              "RelativeDocumentMoniker": "securitypackagetest\\RailFenceTest.cs",
+              "ToolTip": "D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\securitypackagetest\\RailFenceTest.cs",
+              "RelativeToolTip": "securitypackagetest\\RailFenceTest.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAvwCwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T21:32:50.454Z",
+              "WhenOpened": "2024-03-10T10:26:46.407Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AutokeyVigenere.cs",
-              "DocumentMoniker": "D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\securitylibrary\\MainAlgorithms\\AutokeyVigenere.cs",
-              "RelativeDocumentMoniker": "securitylibrary\\MainAlgorithms\\AutokeyVigenere.cs",
-              "ToolTip": "D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\securitylibrary\\MainAlgorithms\\AutokeyVigenere.cs",
-              "RelativeToolTip": "securitylibrary\\MainAlgorithms\\AutokeyVigenere.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAEwDUAAAAJAAAA",
+              "Title": "RailFence.cs",
+              "DocumentMoniker": "D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\securitylibrary\\MainAlgorithms\\RailFence.cs",
+              "RelativeDocumentMoniker": "securitylibrary\\MainAlgorithms\\RailFence.cs",
+              "ToolTip": "D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\securitylibrary\\MainAlgorithms\\RailFence.cs",
+              "RelativeToolTip": "securitylibrary\\MainAlgorithms\\RailFence.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwDsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T23:03:55.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RepeatingKeyVigenere.cs",
-              "DocumentMoniker": "D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\securitylibrary\\MainAlgorithms\\RepeatingKeyVigenere.cs",
-              "RelativeDocumentMoniker": "securitylibrary\\MainAlgorithms\\RepeatingKeyVigenere.cs",
-              "ToolTip": "D:\\Study\\FCIS 2024\\Semester 8 FCIS 2024\\Computer and network security\\Security-Package\\securitylibrary\\MainAlgorithms\\RepeatingKeyVigenere.cs",
-              "RelativeToolTip": "securitylibrary\\MainAlgorithms\\RepeatingKeyVigenere.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAADgvxgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T21:32:24.675Z",
+              "WhenOpened": "2024-03-10T10:26:33.131Z",
               "EditorCaption": ""
             }
           ]
