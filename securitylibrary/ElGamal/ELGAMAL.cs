@@ -20,16 +20,25 @@ namespace SecurityLibrary.ElGamal
 
         public List<long> Encrypt(int q, int alpha, int y, int k, int m)
         {
-
-            throw new NotImplementedException();
-
+            long c1 = PowerModulo(alpha, k, q);
+            long c2 = ((m % q) * PowerModulo(y, k, q)) % q;
+            List<long> cipher = new List<long>() { c1, c2 };
+            return cipher;
         }
      
         public int Decrypt(int c1, int c2, int x, int q)
         {
 
-            throw new NotImplementedException();
+            int tmp = PowerModulo(c1, q - 1 - x, q);
+            int plain = (c2 * tmp) % q;
+            return plain;
+        }
 
+        public int PowerModulo(int b, int p, int m)
+        {
+            if (p == 1)
+                return b % m;
+            return (PowerModulo(b, p - 1, m) * b) % m;
         }
     }
 }
