@@ -19,6 +19,8 @@ namespace SecurityLibrary.AES
         {
             //throw new NotImplementedException();
             int x = 0, y = 0;
+            //number = 43;
+            //baseN = 17;
             int g = ExtGcd(number, baseN, ref x, ref y);
             if (g != 1)
                 return -1;

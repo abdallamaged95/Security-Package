@@ -13,25 +13,26 @@ namespace SecurityLibrary.DES
     {
         public string Decrypt(string cipherText, List<string> key)
         {
-            //throw new NotImplementedException();
-            string first = DES.EncryptionDecryption(cipherText, key[0], false);
-            string second = DES.EncryptionDecryption(cipherText, key[1], true);
-            string third = DES.EncryptionDecryption(cipherText, key[0], false);
+            DES des = new DES();
+            string first = des.Decrypt(cipherText, key[0]);
+            string second = des.Encrypt(cipherText, key[1]);
+            string third = des.Decrypt(cipherText, key[0]);
 
             return third;
+
         }
 
         public string Encrypt(string plainText, List<string> key)
         {
-            //throw new NotImplementedException();
-            string first = DES.EncryptionDecryption(plainText, key[0], true);
-            string second = DES.EncryptionDecryption(plainText, key[1], false);
-            string third = DES.EncryptionDecryption(plainText, key[0], true);
+            DES des = new DES();
+            string first = des.Encrypt(plainText, key[0]);
+            string second = des.Decrypt(plainText, key[1]);
+            string third = des.Encrypt(plainText, key[0]);
 
             return third;
         }
 
-        public List<string> Analyse(string plainText, string cipherText)
+        public List<string> Analyse(string plainText,string cipherText)
         {
             throw new NotSupportedException();
         }
